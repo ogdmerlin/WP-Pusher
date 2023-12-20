@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Fill up this form to purchase our product">
+  <title>wp pusher checkout</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<article>
+  <header>
+    <img src="assets/wppusher-logo.png" alt="logo for WP pusher">
+    <div class="navigation">
+      <nav aria-label="Main Navigation">
+        <ul role="menubar">
+          <li role="menuitem"><a href="#">Download</a></li>
+          <li role="menuitem"><a href="#">Learn more</a></li>
+          <li role="menuitem"><a href="#">Pricing</a></li>
+          <li role="menuitem"><a href="#">Help</a></li>
+          <li role="menuitem"><button type="submit" arial-label="Account">Account</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</article>
+  <main>
+
+    <div class="container">
+
+      <div class="form-section">
+        <div class="form-heading">
+          <h2 class="checkout">Checkout</h2>
+        </div>
+        <div class="basic-information">
+          <div class="form-title form-1">
+            <p class="number-one" aria-hidden="true">1</p>
+            <p class="the-form-title">Your Basic Information</p>
+          </div>
+          <form action="">
+            <div class="form-first-sec">
+              <div class="form-cells">
+                <label  for="name">First Name</label>
+                <input tabindex="-1" id="name" type="text" value="jane" required>
+              </div>
+              <div class="form-cells">
+                <label for="last-name">Last Name</label>
+                <input tabindex="-2" id="last-name" type="text" value="Doe" required>
+              </div>
+              <div class="form-cells email">
+                <label for="email">Email</label>
+                <input tabindex="-3" id="email" type="email" value="janedoe@example.com" required>
+              </div>
+          </form>
+        </div>
+
+      </div>
+
+
+      <div class="payment-info">
+        <div class="form-title form-2">
+          <p class="number-one" aria-hidden="true">2</p>
+          <h2 class="the-form-title">Your Payment Information</h2>
+        </div>
+        <form action="">
+          <label for="credit-card">Credit Card</label>
+          <div class="cc">
+            <input tabindex="-4" id="credit-card" placeholder="Card Number" type="text" required>
+        </form>
+        <div class="credit-card-placeholder-details">
+          <p>MM / YY</p>
+          <P>CVC</P>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="purchase">
+      <button tabindex="-5" type="submit">Buy WP Pusher</button>
+      <div class="support">
+        <div class="support-2">
+          <p><span class="help">Need any help?</span> Don't hesitate to contact<br>support! </p>
+          <div class="underline"></div>
+          <div class="question-mark"><img src="assets/Mask.png" alt="question mark"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="powered-by-stripe"><img src="assets/powered_by_stripe.png" alt="stripe logo"></div>
+
+    </div>
+    <div class="pricing-section">
+      <div class="content">
+        <div class="price">
+          <p class="title">Freelancer</p>
+          <p class="annual-price"><span class="dollar-sign">$</span>
+            <span class="annual">99</span>/year</p>
+          <p class="info">Automatically renewes<br> after 1 year</p>
+        </div>
+        <div class="details">
+          <p>Use on 5 client sites</p>
+          <p>Private repositories</p>
+          <p>Email Support</p>
+        </div>
+        <div class="switch">
+          <p>Need 20 clients?</p>
+          <a href="#">switch to angency plan</a>
+        </div>
+        <div class="rectangle"></div>
+        <div class="quote">
+          <blockquote>
+            FTP is horrible to deal with.<br> WP Pusher solves that issue,<br>
+            and the customer support is awesome!
+          </blockquote>
+          <div class="author"><img src="assets/Bitmap.png" alt="kirk Beard">
+            <p aria-roledescription="quote author">Kirk Beard</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+<footer>
+    <p arial-label="copyrights">&copy; 2018 WP Pusher IVS · Terms of Service</p>
+  </footer>
+</html>
